@@ -1,0 +1,52 @@
+From aed8e5e8a98743f2f0d5d5b587224c38e65a3b17 Mon Sep 17 00:00:00 2001
+From: tingsung <tingsung@msi.com>
+Date: Mon, 2 Dec 2019 14:12:50 +0800
+Subject: [PATCH] mount usb removeable disk
+
+---
+ etc/init.rc | 2 ++
+ roots.cpp   | 8 ++++++++
+ 2 files changed, 10 insertions(+)
+
+diff --git a/etc/init.rc b/etc/init.rc
+index 0fc6c4c1..7d93a4fa 100644
+--- a/etc/init.rc
++++ b/etc/init.rc
+@@ -10,6 +10,7 @@ on init
+     export ANDROID_ROOT /system
+     export ANDROID_DATA /data
+     export EXTERNAL_STORAGE /sdcard
++	export EXTERNAL_STORAGE /udisk
+ 
+     symlink /system/bin /bin
+     symlink /system/etc /etc
+@@ -18,6 +19,7 @@ on init
+     mkdir /acct/uid
+ 
+     mkdir /sdcard
++	mkdir /udisk
+     mkdir /system
+     mkdir /data
+     mkdir /cache
+diff --git a/roots.cpp b/roots.cpp
+index a8f000a4..11856185 100644
+--- a/roots.cpp
++++ b/roots.cpp
+@@ -60,6 +60,14 @@ void load_volume_table() {
+     return;
+   }
+ 
++  ret = fs_mgr_add_entry(fstab, "/udisk", "vfat", "/dev/block/sda1");
++  if (ret < 0 ) {
++      printf("failed to add /udisk entry to fstab\n");
++      fs_mgr_free_fstab(fstab);
++      fstab = NULL;
++      return;
++  }
++
+   printf("recovery filesystem table\n");
+   printf("=========================\n");
+   for (int i = 0; i < fstab->num_entries; ++i) {
+-- 
+2.21.0
+
