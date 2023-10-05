@@ -1,0 +1,25 @@
+A:\..trash\ota
+λ adb shell getprop ro.boot.slot_suffix
+_b
+
+A:\..trash\ota
+λ adb reboot
+
+A:\..trash\ota
+λ adb shell getprop | grep 1696212788
+[ro.build.date.utc]: [1696212788]
+[ro.product.build.date.utc]: [1696212788]
+[ro.system.build.date.utc]: [1696212788]
+[ro.system_ext.build.date.utc]: [1696212788]
+
+A:\..trash\ota
+λ adb shell getprop | grep 1696213025
+[ro.odm.build.date.utc]: [1696213025]
+[ro.odm_dlkm.build.date.utc]: [1696213025]
+[ro.system_dlkm.build.date.utc]: [1696213025]
+[ro.vendor.build.date.utc]: [1696213025]
+[ro.vendor_dlkm.build.date.utc]: [1696213025]
+
+A:\..trash\ota
+λ adb sshell getprop ro.boot.slot_suffix
+_a

@@ -1,0 +1,140 @@
+--------- beginning of main
+10-02 01:51:41.292   533   533 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-02 01:51:41.294   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:41.296   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:41.448   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:51:41.448   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:51:41.448   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:51:41.449   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:51:41.449   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:51:41.449   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:51:41.449   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:51:41.452   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:51:41.453   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:41.453   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:51:41.453   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:44.450   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:51:44.450   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:51:44.450   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:51:44.450   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:51:44.450   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:51:44.450   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:51:44.450   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:51:44.454   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:51:44.454   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:44.455   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:51:44.455   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:45.299   533   533 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-02 01:51:45.300   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:45.302   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:47.453   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:51:47.453   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:51:47.453   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:51:47.454   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:51:47.454   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:51:47.454   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:51:47.454   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:51:47.458   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:51:47.458   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:47.458   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:51:47.458   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:49.307   533   533 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-02 01:51:49.308   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:49.310   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:50.456   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:51:50.456   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:51:50.456   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:51:50.456   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:51:50.456   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:51:50.456   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:51:50.457   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:51:50.460   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:51:50.461   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:50.461   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:51:50.461   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:53.318   533   533 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-02 01:51:53.320   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:53.322   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:53.457   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:51:53.458   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:51:53.458   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:51:53.458   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:51:53.458   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:51:53.458   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:51:53.458   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:51:53.586   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:51:53.586   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:53.587   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:51:53.587   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:56.461   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:51:56.461   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:51:56.461   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:51:56.461   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:51:56.461   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:51:56.461   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:51:56.461   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:51:56.465   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:51:56.465   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:56.465   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:51:56.466   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:57.329   533   533 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-02 01:51:57.330   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:57.332   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:51:59.464   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:51:59.464   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:51:59.464   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:51:59.464   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:51:59.464   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:51:59.464   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:51:59.464   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:51:59.468   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:51:59.468   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:51:59.468   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:51:59.468   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:52:01.340   533   533 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-02 01:52:01.342   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:52:01.343   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:52:02.465   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:52:02.465   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:52:02.466   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:52:02.466   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:52:02.466   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:52:02.466   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:52:02.466   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:52:02.469   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:52:02.470   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:52:02.470   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:52:02.470   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:52:04.207  1375  1375 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+10-02 01:52:04.208  1375  1375 D KeyguardUpdateMonitor: handleBatteryUpdate
+--------- beginning of system
+10-02 01:52:04.208  1375  2736 D PowerUI : can't show warning due to - plugged: true status unknown: false
+10-02 01:52:04.229  1375  1375 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+10-02 01:52:04.230  1375  1375 D KeyguardUpdateMonitor: handleBatteryUpdate
+10-02 01:52:04.230  1375  2436 D PowerUI : can't show warning due to - plugged: true status unknown: false
+10-02 01:52:05.352   533   533 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-02 01:52:05.353   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:52:05.354   534   534 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-02 01:52:05.467   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:52:05.467   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:52:05.467   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:52:05.467   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:52:05.467   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:52:05.467   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:52:05.467   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:52:05.471   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:52:05.471   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:52:05.471   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:52:05.472   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:52:08.470   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+10-02 01:52:08.470   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+10-02 01:52:08.470   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+10-02 01:52:08.470   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=BATTERY
+10-02 01:52:08.470   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():BATTERY
+10-02 01:52:08.470   768   789 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:BATTERY
+10-02 01:52:08.471   768   789 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+10-02 01:52:08.474   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: BATTERY Name: BATTERY CurrentValue: 38 ThrottlingStatus: NONE
+10-02 01:52:08.474   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:52:08.474   768   789 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 27.301 ThrottlingStatus: NONE
+10-02 01:52:08.475   768   789 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+10-02 01:52:09.192   930  3854 I adbd    : adbd restarting as root

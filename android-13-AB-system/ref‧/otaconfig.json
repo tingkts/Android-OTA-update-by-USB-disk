@@ -1,0 +1,47 @@
+{
+    "__": "*** Generated using tools/gen_update_config.py ***",
+    "ab_config": {
+        "force_switch_slot": true,
+        "property_files": [
+            {
+                "filename": "payload_metadata.bin",
+                "offset": 4730,
+                "size": 103248
+            },
+            {
+                "filename": "payload.bin",
+                "offset": 4730,
+                "size": 1461891
+            },
+            {
+                "filename": "payload_properties.txt",
+                "offset": 1466679,
+                "size": 153
+            },
+            {
+                "filename": "apex_info.pb",
+                "offset": 3725,
+                "size": 0
+            },
+            {
+                "filename": "care_map.pb",
+                "offset": 3772,
+                "size": 911
+            },
+            {
+                "filename": "metadata",
+                "offset": 69,
+                "size": 819
+            },
+            {
+                "filename": "metadata.pb",
+                "offset": 956,
+                "size": 2721
+            }
+        ],
+        "verify_payload_metadata": false
+    },
+    "ab_install_type": "NON_STREAMING",
+    "name": "N AB_delta",
+    "url": "file:///data/otazip/otapackage.zip"
+}
